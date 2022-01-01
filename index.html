@@ -1,23 +1,130 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
-<html>
+<!doctype html>
+<html lang="en">
+
     <head>
+        <!-- Required meta tags -->
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Homepage</title>
-        <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+            integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+
+        <!-- Css File -->
+        <link rel="stylesheet" href="D:\repo\invvaste\style.css">
+
+        <title>Welcome To Innvaste</title>
     </head>
+
     <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        <h1> HOME PAGE </h1>
-        
-        <script src="" async defer></script>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+            <div class="container">
+                <a class="navbar-brand" href="#">Invvaste</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="\tubesIBM\index.php">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="\tubesIBM\about_us.php">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="\tubesIBM\our_service.php">Our Service</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="\tubesIBM\our_team.php">Our Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="\tubesIBM\contact_us.php">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="\tubesIBM\credit.php">Credit</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="\tubesIBM\login.php">Login</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Content -->
+
+        <!-- jumbotron untuk welcome txt  -->
+        <div class="container">
+            <section class="jumbotron">
+                <h1 class="display-4">Welcome, to Invvaste Page!</h1>
+                <p class="lead">In <b>Waste</b> We <b>Invaste</b>.
+                </p>
+            </section>
+        </div>
+        <!-- end of jumbotron -->
+
+        <!-- card harga -->
+        <div class="container">
+            <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+                <h1 class="display-4 fw-normal">Let's Discover Our Point</h1>
+                <p class="fs-5 text-muted">
+                    Hi, Gudpipel Selamat Datang! Mari Kita Lihat Point Yang Sudah Dikumpulkan
+                    Dengan Memasukan ID Gudpipel pada form dibawah ini..
+                </p>
+            </div>
+
+            
+            <div id="button-solo">
+                <a href="\tubesIBM\our_service.php" class="btn btn-dark btn-lg active" role="button"
+                    aria-pressed="true">Cari</a>
+            </div>
+        </div>
+        <!-- end of card harga -->
+
+        <footer class="pt-4 my-md-5 pt-md-5 border-top">
+            <div class="row">
+                <div class="col-12 col-md">
+                    <img class="mb-2" src="\tubesIBM\img\logoAlidha.jpg" alt="" width="24" height="19">
+                    <small class="d-block mb-3 text-muted">© 2021-2022</small>
+                </div>
+                <div class="col-6 col-md">
+                    <h5>Open Hours</h5>
+                    <ul class="list-unstyled text-small">
+                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#"><b>Mon-Sat</b>
+                                09.00-21.00</a></li>
+                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#"><b>Sun</b>
+                                10.00-21.00</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md">
+                    <h5>Location</h5>
+                    <ul class="list-unstyled text-small">
+                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Perum. Griya Jingga, Katapang,Kabupaten Bandung</a></li>
+                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Perum. Rancamanyar Regency 2,Kabupaten Bandung</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+        <!-- end Of Content -->
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous">
+        </script>
     </body>
+
 </html>
